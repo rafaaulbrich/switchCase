@@ -1,0 +1,28 @@
+<script>
+    /*
+    //PROBLEMA: Faça um script que peça um número inteiro e determine se ele é par ou ímpar.
+    */
+
+    //ENTRADA
+
+    const numero = parseInt(prompt("diga um número inteiro"));
+    let resultado;
+    
+    //PROCESSAMENTO
+
+    const parImpar = numero % 2 
+
+    switch(parImpar) {
+        case 0:
+            resultado = "é um número par";
+            break;
+        default:
+            resultado = "é um número ímpar";
+            break;
+    }
+    
+    //SAÍDA
+
+    document.write(resultado);
+
+</script>
